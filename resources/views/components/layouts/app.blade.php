@@ -24,15 +24,12 @@
 
 <body class="bg-slate-100 font-sans">
     <div
-        class="navbar flex justify-between items-center md:px-24 sm:px-12 bg-slate-900/90 sticky top-0 z-50 text-slate-100">
-        <div class="flex-1">
-            <a class="btn btn-ghost text-xl">daisyUI</a>
-        </div>
+        class="navbar flex justify-between items-center px-4 md:px-24 sm:px-12 bg-slate-900/90 sticky top-0 z-50 text-slate-100">
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1 font-medium">
                 <li class="font-extrabold"><a href="/" wire:navigate>Beranda</a></li>
-                <li><a href="">Infografis</a></li>
-                <li><a href="">Video Edukasi</a></li>
+                <li><a href="/infografis" wire:navigate>Infografis</a></li>
+                <li><a href="/videos" wire:navigate>Video</a></li>
                 <li><a href="/chat" wire:navigate>QnA</a></li>
             </ul>
         </div>
@@ -47,21 +44,7 @@
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
                     class="hover:underline">Flowbite™</a>. All Rights Reserved.
-            </span>
-            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
-            </ul>
+            </span>     
         </div>
     </footer>
 
