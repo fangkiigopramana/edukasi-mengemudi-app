@@ -27,10 +27,10 @@
         class="navbar flex justify-between items-center px-4 md:px-24 sm:px-12 bg-slate-900/90 sticky top-0 z-50 text-slate-100">
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1 font-medium">
-                <li class="font-extrabold"><a href="/" wire:navigate>Beranda</a></li>
-                <li><a href="/infografis" wire:navigate>Infografis</a></li>
-                <li><a href="/videos" wire:navigate>Video</a></li>
-                <li><a href="/chat" wire:navigate>QnA</a></li>
+                <li class="{{request()->routeIs('home') ? "font-extrabold" : "font-normal"}}"><a href="/" wire:navigate>Beranda</a></li>
+                <li class="{{request()->routeIs('infografis') ? "font-extrabold" : "font-normal"}}"><a href="/infografis" wire:navigate>Infografis</a></li>
+                <li class="{{request()->routeIs('videos') ? "font-extrabold" : "font-normal"}}"><a href="/videos" wire:navigate>Video</a></li>
+                <li class="{{request()->routeIs('chat') ? "font-extrabold" : "font-normal"}}"><a href="/chat" wire:navigate>QnA</a></li>
             </ul>
         </div>
     </div>

@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Home::class);
+Route::get('/', Home::class)->name('home');
 
-Route::get('/chat', Chat::class);
-Route::get('/infografis', Infografis::class);
-Route::get('/videos', Videos::class);
+Route::get('/chat', Chat::class)->name('chat');
+Route::get('/infografis', Infografis::class)->name('infografis');
+Route::get('/videos', Videos::class)->name('videos');
 

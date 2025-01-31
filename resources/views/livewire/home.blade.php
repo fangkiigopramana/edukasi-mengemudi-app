@@ -138,9 +138,9 @@
                         </dl>
                     </div>
                     <div class="mt-5">
-                        <button type="button"
+                        <a href="{{route('infografis')}}"
                             class="w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Lihat
-                            infografis lainnya ➡</button>
+                            infografis lainnya ➡</a>
                     </div>
                 </div>
                 <img src="{{ asset("pamflet.png") }}" alt="Product screenshot"
@@ -153,7 +153,7 @@
     <div class="bg-white py-12 sm:py-16">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
-                <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
+                <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-balance sm:text-center">
                     Video Edukasi</p>
                 <h2 class="text-center text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
 
