@@ -15,7 +15,7 @@ class Chat extends Component
         // Initialize the chat with a default message.
         $this->chats[] = [
             'type' => 'start', // Start message type
-            'message' => 'Hello! What can I help you with?',
+            'message' => 'Hai! Ada yang bisa saya bantu?',
             'time' => Date::now()->format('H:i')
         ];
     }

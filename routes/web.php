@@ -23,3 +23,5 @@ Route::get('/chat', Chat::class)->name('chat');
 Route::get('/infografis', Infografis::class)->name('infografis');
 Route::get('/videos', Videos::class)->name('videos');
 
+Route::view('/contoh','index');
+
