@@ -2,7 +2,7 @@
     <div class="d-flex flex-column gap-4 w-100 p-4 bg-white rounded-lg py-5">
         @foreach($chats as $chat)
         @if($chat['type'] === 'start')
-        <div class="d-flex align-items-start gap-2">
+        <div class="d-flex align-items-start gap-2" style="background-color: lemonchiffon">
             <span class="w-8 h-8 rounded-circle bg-dark" alt="Jese image"></span>
             <div class="d-flex flex-column p-4  rounded">
                 <div class="d-flex align-items-center">
@@ -13,7 +13,7 @@
             </div>
         </div>
         @else
-        <div class="d-flex align-items-end gap-2 justify-content-end">
+        <div class="d-flex align-items-end gap-2 justify-content-end"  style="background-color: rgb(223, 255, 255)">
             <div class="d-flex flex-column p-4 rounded">
                 <div class="d-flex align-items-center">
                     <span class="text-sm fw-semibold text-dark">User</span>

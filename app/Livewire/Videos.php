@@ -2,12 +2,14 @@
 
 namespace App\Livewire;
 
+use App\Models\Video;
 use Livewire\Component;
 
 class Videos extends Component
 {
     public function render()
     {
-        return view('livewire.videos');
+        $videos = Video::all();
+        return view('livewire.videos', compact('videos'));
     }
 }

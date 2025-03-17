@@ -29,10 +29,9 @@ class VideoResource extends Resource
                 Forms\Components\TextInput::make('description')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\FileUpload::make('url')
-                    ->label('Video')
+                Forms\Components\TextInput::make('url')
+                    ->label('Link Video')
                     ->required()
-                    ->acceptedFileTypes(['video/*'])
                     ->columnSpanFull(),
             ]);
     }
@@ -45,6 +44,7 @@ class VideoResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('description')
                     ->searchable(),
+                Tables\Columns\TextColumn::make('url')
             ])
             ->filters([
                 //

@@ -23,4 +23,17 @@ class EditVideo extends EditRecord
 
         return $resource::getUrl('index');
     }
+
+    /**
+     * @param  array<string, mixed>  $data
+     * @return array<string, mixed>
+     */
+    protected function mutateFormDataBeforeSave(array $data): array
+    {
+        if (isset($data['url'])) {
+            $data['url'] = str_replace('https://www.youtube.com/shorts/', 'https://www.youtube.com/embed/', $data['url']) . '?rel=0';
+        }
+        
+        return $data;
+    }
 }

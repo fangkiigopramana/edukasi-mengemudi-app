@@ -21,9 +21,8 @@ class CreateVideo extends CreateRecord
 
     protected function mutateFormDataBeforeCreate(array $data): array
     {
-        if (isset($data['uploadfile'])) {
-            $filePath = $data['uploadfile']->store('videos', 'public');
-            $data['url'] = 'storage/' . $filePath;
+        if (isset($data['url'])) {
+            $data['url'] = str_replace('https://www.youtube.com/shorts/', 'https://www.youtube.com/embed/', $data['url']) . '?rel=0';
         }
         
         return $data;
