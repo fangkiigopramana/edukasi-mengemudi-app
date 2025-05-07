@@ -1,279 +1,33 @@
-{{-- <div>
-    <div class="hero min-h-screen"
-        style="background-image: url(https://kreditkerenbanget.com/imagecache/original/aEVOv1700554747147f6Tdu.webp);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-neutral-content text-center">
-            <div class="max-w-7xl mx-auto px-6 md:px-12">
-                <h1 class="text-gray-200 text-balance dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-                    Tingkatkan Keterampilan Dalam Berkendara</h1>
-                <p class="py-6 max-w-2xl mx-auto">
-                    Pelajari teknik mengemudi yang aman dan efisien untuk mengurangi risiko kecelakaan dan meningkatkan
-                    kenyamanan berkendara.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-white py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl lg:text-center">
-                <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
-                    Apa pentingnya edukasi dalam mengemudi kendaraan?</p>
-            </div>
-            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
-                                    class="size-6">
-                                    <path fill-rule="evenodd"
-                                        d="M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            Meningkatkan Keselamatan di Jalan Raya
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">Edukasi membantu pengemudi memahami peraturan lalu
-                            lintas, etika berkendara, dan cara menghadapi situasi darurat. Dengan ini, risiko kecelakaan
-                            dapat diminimalkan.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-                                </svg>
-                            </div>
-                            Mengurangi Pelanggaran Lalu Lintas
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">Pemahaman yang baik tentang aturan lalu lintas
-                            membuat pengemudi lebih sadar untuk mematuhi rambu, marka, dan peraturan, sehingga
-                            pelanggaran lalu lintas dapat dikurangi.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
-                                    class="size-6">
-                                    <path fill-rule="evenodd"
-                                        d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003ZM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75Zm0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            Mendukung Penghematan Biaya
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">Berkendara dengan aman dan efisien dapat mengurangi
-                            risiko kerusakan kendaraan akibat kecelakaan serta menghemat bahan bakar melalui teknik
-                            eco-driving yang tepat.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
-                                    class="size-6">
-                                    <path
-                                        d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
-                                </svg>
-                            </div>
-                            Membangun Tanggung Jawab Sosial
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">Edukasi mengemudi juga menanamkan rasa tanggung jawab
-                            terhadap pengguna jalan lain, seperti pejalan kaki, pengendara lain, dan lingkungan sekitar.
-                            Hal ini membantu menciptakan budaya berkendara yang aman dan saling menghormati.</dd>
-                    </div>
-                </dl>
-            </div>
-        </div>
-    </div>
-
-    <div class="overflow-hidden bg-white py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div
-                class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                <div class="lg:pr-8 lg:pt-4">
-                    <div class="lg:max-w-lg">
-                        <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Belajar
-                            Melalui Infografis Menarik</p>
-                        <p class="mt-6 text-lg/8 text-gray-600">Pelajari berbagai teknik mengemudi melalui infografis
-                            yang menarik dan mudah dipahami. Tingkatkan pengetahuan Anda untuk berkendara lebih aman dan
-                            efisien.
-                        </p>
-                        <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
-                            <div class="relative pl-9">
-                                <dt class="inline font-semibold text-gray-900">
-                                    <svg class="absolute left-1 top-1 size-5 text-indigo-600"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                        class="size-6">
-                                        <path
-                                            d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
-                                    </svg>
-                                    Mudah untuk dipelajari.
-                                </dt>
-                                <dd class="inline">Pelajari teknik mengemudi yang aman dan efisien dengan mudah melalui
-                                    infografis yang menarik.</dd>
-                            </div>
-                            <div class="relative pl-9">
-                                <dt class="inline font-semibold text-gray-900">
-                                    <svg class="absolute left-1 top-1 size-5 text-indigo-600"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                        class="size-6">
-                                        <path
-                                            d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25ZM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 1 1 6 0h3a.75.75 0 0 0 .75-.75V15Z" />
-                                        <path
-                                            d="M8.25 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0ZM15.75 6.75a.75.75 0 0 0-.75.75v11.25c0 .087.015.17.042.248a3 3 0 0 1 5.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 0 0-3.732-10.104 1.837 1.837 0 0 0-1.47-.725H15.75Z" />
-                                        <path d="M19.5 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
-                                    </svg>
-                                    Keamanan Berkendara.
-                                </dt>
-                                <dd class="inline">Dapatkan pengetahuan tentang pentingnya menjaga keamanan berkendara.
-                                </dd>
-                            </div>
-                        </dl>
-                    </div>
-                    <div class="mt-5">
-                        <a href="{{route('infografis')}}"
-                            class="w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Lihat
-                            infografis lainnya ➡</a>
-                    </div>
-                </div>
-                <img src="{{ asset("pamflet.png") }}" alt="Product screenshot"
-                    class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                    width="2432" height="1442">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-white py-12 sm:py-16">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl lg:text-center">
-                <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-balance sm:text-center">
-                    Video Edukasi</p>
-                <h2 class="text-center text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
-
-            </div>
-            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                <iframe class="w-full rounded-[24px]" height="450" src="https://www.youtube.com/embed/UnqOmbR2qNs"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-gray-50 py-18 sm:py-32">
-        <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-            <p
-                class="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-bold tracking-tight text-gray-950 sm:text-5xl">
-                Fitur Chat QnA</p>
-            <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
-                <div class="relative lg:row-span-2">
-                    <div class="absolute inset-px rounded-lg bg-white lg:rounded-l-[2rem]"></div>
-                    <div
-                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
-                        <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
-                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Mobile
-                                Friendly</p>
-                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Fitur chat QnA kami dapat diakses dengan mudah melalui perangkat mobile, memastikan Anda dapat bertanya kapan saja dan di mana saja.</p>
-                        </div>
-                        <div
-                            class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
-                            <div
-                                class="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                                <img class="size-full object-cover object-top" src="{{ asset("chat-1.png") }}"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]">
-                    </div>
-                </div>
-                <div class="relative max-lg:row-start-1">
-                    <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
-                    <div
-                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
-                        <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                                Respons Cepat</p>
-                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Dapatkan jawaban atas pertanyaan Anda dengan cepat melalui fitur chat QnA kami yang responsif.</p>
-                        </div>
-                        <div
-                            class="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-                            <img class="w-full max-lg:max-w-xs"
-                                src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
-                                alt="">
-                        </div>
-                    </div>
-                    <div
-                        class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]">
-                    </div>
-                </div>
-                <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
-                    <div class="absolute inset-px rounded-lg bg-white"></div>
-                    <div
-                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
-                        <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                                Keamanan</p>
-                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Fitur chat QnA kami dilengkapi dengan keamanan yang tinggi untuk melindungi privasi dan data Anda.</p>
-                        </div>
-                        <div class="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-                            <img class="h-[min(152px,40cqw)] object-cover"
-                                src="https://tailwindui.com/plus/img/component-images/bento-03-security.png"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
-                </div>
-                <div class="relative lg:row-span-2">
-                    <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]">
-                    </div>
-                    <div
-                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
-                        <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
-                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Jawaban Akurat</p>
-                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Fitur chat QnA kami didukung oleh API yang kuat, memastikan performa yang handal dan integrasi yang mudah.</p>
-                        </div>
-                        <div
-                            class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
-                            <div
-                                class="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                                <img class="size-full object-cover object-top" src="{{ asset("chat-4.png") }}"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
-
 <div>
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset("img/bg-hero.jpg") }}" alt="Image">
+                    <img class="w-100" src="{{ asset("img2.jpeg") }}" alt="Image">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-9 text-center text-lg-start">
                                     <h6 class="text-white text-uppercase mb-1 animated slideInDown">Pelajari teknik
                                         mengemudi yang aman dan baik</h6>
-                                    <h1 class="display-4 text-white mb-4 pb-3 animated slideInDown">Tingkatkan
-                                        Keterampilan Dalam Berkendara</h1>
+                                    <h1 class="display-4 text-white mb-4 pb-3 animated slideInDown">Mau Tau Cara Mengemudi Yang Aman?</h1>
+                                    <a href="#infografis" class="btn btn-primary py-3 px-5 animated slideInDown">Lebih
+                                        lanjut<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{ asset("img2.jpg") }}" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-9 text-center text-lg-start">
+                                    <h6 class="text-white text-uppercase mb-1 animated slideInDown">Pelajari teknik
+                                        mengemudi yang aman dan baik</h6>
+                                    <h1 class="display-4 text-white mb-4 pb-3 animated slideInDown">Mau Tau Cara Mengemudi Yang Aman?</h1>
                                     <a href="#infografis" class="btn btn-primary py-3 px-5 animated slideInDown">Lebih
                                         lanjut<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
@@ -282,6 +36,14 @@
                     </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
     <!-- Carousel End -->
@@ -291,12 +53,36 @@
             <div class="row g-5">
                 <div class="col-lg-6 pt-4" style="min-height: 400px;">
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset("img/about.jpg") }}"
-                            style="object-fit: cover;" alt="">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://jogja.polri.go.id/yogyakarta/file/Perhatikan-Rambu-Lalu-Lintas-20240702-110146-0000-3--2.png"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://jogja.polri.go.id/yogyakarta/file/Perhatikan-Rambu-Lalu-Lintas-20240702-110146-0000-3--2.png"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://jogja.polri.go.id/yogyakarta/file/Perhatikan-Rambu-Lalu-Lintas-20240702-110146-0000-3--2.png"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="mb-4">Belajar Melalui Infografis Menarik</h1>
+                    <h1 class="mb-4">Lebih Tahu Tata Cara Mengemudi Lewat Poster Kami</h1>
                     <p class="mb-4">Pelajari berbagai teknik mengemudi melalui infografis
                         yang menarik dan mudah dipahami. Tingkatkan pengetahuan Anda untuk berkendara lebih aman dan
                         efisien.</p>
@@ -348,22 +134,22 @@
                     <div class="nav w-100 nav-pills me-4">
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
                             data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                            <i class="fa fa-car-side fa-2x me-3"></i>
+                            <i class="fa fa-car-side fa-2x me-3 text-dark"></i>
                             <h4 class="m-0">Meningkatkan Keselamatan di Jalan Raya</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
                             data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                            <i class="fa fa-car fa-2x me-3"></i>
+                            <i class="fa fa-car fa-2x me-3 text-dark"></i>
                             <h4 class="m-0">Mengurangi Pelanggaran Lalu Lintas</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
                             data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <i class="fa fa-funnel-dollar fa-2x me-3"></i>
+                            <i class="fa fa-funnel-dollar fa-2x me-3 text-dark"></i>
                             <h4 class="m-0">Mendukung Penghematan Biaya</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
                             data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
-                            <i class="fa fa-people-carry fa-2x me-3"></i>
+                            <i class="fa fa-people-carry fa-2x me-3 text-dark"></i>
                             <h4 class="m-0">Membangun Tanggung Jawab Sosial</h4>
                         </button>
                     </div>
@@ -456,7 +242,7 @@
 
 
     <!-- Booking Start -->
-    <div class="container-fluid bg-secondary booking my-0 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid bg-primary booking my-0 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -484,7 +270,7 @@
     <div class="container-xxl py-5" style="background-color: rgb(232, 234, 240)">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5">Fitur Chat QnA</h1>
+                <h1 class="mb-5">Fitur Chat FAQ</h1>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-6">
@@ -503,22 +289,19 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="nav w-100 nav-pills me-4">
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
-                            type="button">
-                            <i class="fa fa-mobile-alt fa-2x me-3"></i>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" type="button">
+                            <i class="fa fa-mobile-alt fa-2x text-primary me-3"></i>
                             <h4 class="m-0">Mobile Friendly</h4>
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
-                            type="button">
-                            <i class="fa fa-bolt fa-2x me-3"></i>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" type="button">
+                            <i class="fa fa-bolt fa-2x text-primary me-3"></i>
                             <h4 class="m-0">Respons Cepat</h4>
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
-                            type="button">
-                            <i class="fa fa-shield-alt fa-2x me-3"></i>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" type="button">
+                            <i class="fa fa-shield-alt fa-2x text-primary me-3"></i>
                             <h4 class="m-0">Keamanan</h4>
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
+                        <button class="nav-link w-100 d-flex align-items-center text-primary text-start p-4 mb-0"
                             type="button">
                             <i class="fa fa-check fa-2x me-3"></i>
                             <h4 class="m-0">Jawaban Akurat</h4>

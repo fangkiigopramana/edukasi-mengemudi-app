@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #D81324;
+    --primary: #009788;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
@@ -41,7 +41,12 @@
     transition: .5s;
 }
 
-.btn.btn-primary,
+.btn.btn-primary {
+    color: #FFFFFF;
+    background: var(--primary);
+    border: 1px solid var(--primary);
+}
+
 .btn.btn-secondary {
     color: #FFFFFF;
 }
@@ -204,6 +209,7 @@
 
 /*** Service ***/
 .service .nav .nav-link {
+    color: var(--primary);
     background: var(--light);
     transition: .5s;
 }
@@ -380,4 +386,12 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary {
+    background: var(--primary) !important;
 }
