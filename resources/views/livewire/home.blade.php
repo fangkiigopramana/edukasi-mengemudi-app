@@ -54,20 +54,15 @@
                 <div class="col-lg-6 pt-4" style="min-height: 400px;">
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
                         <div id="carouselExample" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="https://jogja.polri.go.id/yogyakarta/file/Perhatikan-Rambu-Lalu-Lintas-20240702-110146-0000-3--2.png"
-                                        class="d-block w-100" alt="...">
+                            <a href="{{ route("infografis") }}">
+                                <div class="carousel-inner">
+                                    @foreach ($posters as $index => $poster)
+                                        <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                                            <img src="{{ 'storage/' . $poster->image }}" class="d-block w-100" alt="{{ $poster->title }}">
+                                        </div>
+                                    @endforeach
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="https://jogja.polri.go.id/yogyakarta/file/Perhatikan-Rambu-Lalu-Lintas-20240702-110146-0000-3--2.png"
-                                        class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://jogja.polri.go.id/yogyakarta/file/Perhatikan-Rambu-Lalu-Lintas-20240702-110146-0000-3--2.png"
-                                        class="d-block w-100" alt="...">
-                                </div>
-                            </div>
+                            </a>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
